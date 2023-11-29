@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "max-len": "warn",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "require-await": "error",
+    "strict": "error"
+  }
+}

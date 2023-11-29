@@ -1,0 +1,13 @@
+###
+GET http://localhost:3030/load
+
+###
+POST http://localhost:3030/save
+Content-Type: application/json
+
+{
+    "maximum": 144,
+    "minimum": 100,
+    "pulse": 99,
+    "weight": 80.8
+}
